@@ -3,7 +3,7 @@ const nextConfig = {
     target: 'server',
     output: "standalone",
     env: {
-        API_HOST_URL: process.env.NEXT_PUBLIC_API_HOST_URL
+        API_HOST_URL: process.env.API_HOST_URL
     },
 }
 
